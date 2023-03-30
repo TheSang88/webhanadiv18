@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<title>Đăng nhập hệ thống phần mềm </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/login2/css/A.style.css.pagespeed.cf.eQk9-CoeFP.css">
+</head>
+<body class="img js-fullheight" style="background-image:url(assets/login2/img/xbg.jpg.pagespeed.ic.tiVxeakBSd.webp)">
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6 text-center mb-5">
+
+</div>
+</div>
+<div class="row justify-content-center">
+<div class="col-md-6 col-lg-4">
+<div class="login-wrap p-0">
+<h3 class="mb-4 text-center">Management System</h3>
+
+
+<form action="" class="signin-form" method="post">
+<div class="form-group">
+<input type="text" class="form-control" id="email" name="username" placeholder="Tên đăng nhập" required>
+</div>
+<div class="form-group">
+<input id="password-field" id="pass" name="pass" type="password" class="form-control" placeholder="Mật khẩu" required>
+<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+</div>
+<div class="form-group">
+<button type="submit" class="form-control btn btn-primary submit px-3">Đăng nhập</button>
+</div>
+<div class="form-group d-md-flex">
+<div class="w-50">
+<label class="checkbox-wrap checkbox-primary">Remember Me
+<input type="checkbox" checked>
+<span class="checkmark"></span>
+</label>
+</div>
+
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script src="<?=base_url()?>assets/login2/js/jquery.min.js"></script>
+<script src="<?=base_url()?>assets/login2/js/popper.js+bootstrap.min.js+main.js.pagespeed.jc.9eD6_Mep8S.js"></script><script>eval(mod_pagespeed_T07FyiNNgg);</script>
+<script>eval(mod_pagespeed_zB8NXha7lA);</script>
+<script>eval(mod_pagespeed_xfgCyuItiV);</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6b075ddafa25c6cc","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.11.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

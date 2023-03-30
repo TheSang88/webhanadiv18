@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /wpadmin/
+Disallow: /?s=*
+Sitemap: https:///sitemap.xml

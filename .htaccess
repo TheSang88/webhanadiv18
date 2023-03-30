@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^hanadi\.vn [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.hanadi.vn/$1 [R,L]
+RewriteCond $1 !^(index\.php|assets|phpmail|wpcontent|fonts|font|css|img|images|js|upload|luutru|contact|sitemap.xml|robots\.txt|favicon\.ico|giaodien)
+RewriteRule ^(.*)$ index.php?/$1 [L]

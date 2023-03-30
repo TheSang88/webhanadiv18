@@ -1,0 +1,285 @@
+@media (min-width:1700px)
+/* lg*/
+
+    {
+
+    .container {
+
+        max-width: 1700px;
+
+        padding: 0;
+
+        width: 95%;
+
+    }
+    .form-timkiem form input {
+        width: 190px !important;
+    }
+
+}
+
+
+
+@media (min-width:1500px) and (max-width:1769px)
+/* md*/
+
+    {
+
+    .container {
+
+        max-width: 1600px;
+
+        padding: 0;
+
+        width: 95%;
+
+
+
+    }
+
+}
+
+
+
+@media (min-width:1300px) and (max-width:1499px){
+
+.container {
+
+        max-width: 1400px;
+
+        padding: 0;
+
+        width: 95%;
+
+
+
+    }
+
+
+}
+
+
+
+
+@media (min-width:1200px) and (max-width:1300px){
+    .container {
+
+        max-width: 1200px;
+
+        padding: 0;
+
+        width: 95%;
+
+
+
+    }
+   
+}
+
+@media (min-width:992px) and (max-width:1199px)
+/* md*/
+
+    {
+        .container {
+
+        max-width: 1000px;
+
+        padding: 0;
+
+        width: 95%;
+
+
+
+    }
+    }
+
+
+
+@media (min-width:992px) {
+.name-congty_mobile {
+    text-align: center;
+    color: #fff;
+    background: #446084;
+    width: 100%;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px)
+/* sm*/
+
+    {
+        .name-congty_mobile {
+    text-align: center;
+    color: #fff;
+    background: #446084;
+    width: 100%;
+    padding: 5px 0;
+    font-weight: 600;
+}
+    }
+
+
+
+@media (max-width:767px)
+/* xs*/
+
+    {
+.content_top .text-dautrang {
+    justify-content: center !important;
+}
+.brand_bg {
+    background-size: contain !important;
+    padding: 50px 0 !important;
+}
+.nav-menu .menu-item {
+
+   position: relative;
+
+}
+.col-20 {
+    width: 100% !important;
+}
+.tab-content {
+    margin-bottom: 20px;
+}
+.nav_product li.nav-link {
+    padding: 7px 4px 5px !important;
+    font-size: 13px !important;
+}
+.nut-144 {
+    width: 100%;
+    height: 100px !important;
+}
+.sum-item-duoi-banner {
+    display: block !important;
+    flex-flow: row wrap;
+    width: auto !important;
+}
+.congcu_right {
+    position: fixed;
+    right: 0;
+    bottom: 10% !important;
+}
+.name-congty_mobile {
+    text-align: center;
+    color: #fff;
+    background: #446084;
+    width: 100%;
+    padding: 5px 0;
+    font-weight: 600;
+}
+.mega_menu {
+    padding: 0px 0px 10px 10px !important;
+
+}
+        .img-footer {
+            align-items: flex-start !important;
+            margin: 20px 0 !important;
+        }
+
+        .footer {
+            padding: 20px 0 !important;
+        }
+
+        .sum_about_us {
+            grid-template-columns: auto !important;
+        }
+
+        .noidung-tintuc p {
+            margin-bottom: 25px !important;
+        }
+
+        .sum-item-img-noibat {
+            grid-template-columns: 100% !important;
+            gap: 10px !important;
+            height: auto !important;
+        }
+        .title-sp-banchay h3 {
+            font-size: 20px !important;
+            margin: 30px 0 10px 0 !important;
+        }
+        .item-noibat-mobi{
+            height: 250px;
+        }
+        .item-noibat-mobi .item a img{
+            height: 250px;
+        }
+
+        .congcu_right ul li:hover .text-form-right {
+            width: 280px !important;
+        }
+
+        ul.nav.nav-tabs.menu_tabs {
+            width: 100%;
+            overflow: auto;
+        }
+        .slider-ten-menutab .item div a{
+            background-color: #1e2f4b;
+            border: 1px solid white;
+            border-bottom: 2px solid #999;
+            color: white;
+            padding: 15px 10px;
+            border-radius: 10px;
+        }
+
+        .slideshow-items.active {
+            width: 100%;
+        }
+
+        .title-dautrang{
+            padding: 20px 0 !important;
+        }
+
+        .title-dautrang h2 {
+            font-size: 25px !important;
+        }
+
+        .title-dautrang .breadcrumb {
+            margin-bottom: 00px !important;
+        }
+        .title-dautrang .breadcrumb li a {
+            font-size: 13px !important;
+        }
+        .chitiet-sanpham {
+            margin: 30px 0 !important;
+        }
+
+        .single_product_inner h4 {
+            margin-top: 30px;
+        }
+
+        ul.nav.nav-tabs.menu_tabs {
+/*            justify-content: start !important;*/
+            gap: 5px !important;
+        }
+        #slideshow-items-container #result{
+            display: none !important;
+        }
+        div#result {
+            display: none !important;
+        }
+}
+
+
+
+
+@media (max-width:480px) {}
+
+
+
+@media (max-width:350px) {
+   
+}
+
+
+
+.visible-480 {
+
+    display: none;
+
+}
